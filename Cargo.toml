@@ -1,0 +1,11 @@
+[package]
+name = "jump"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.17", features = ["derive"] }
+serde = { version = "1.0.209", features = ["derive"] }
+rusqlite = { version = "0.32.0", features = ["bundled"] }
+homedir = "0.3.3"
